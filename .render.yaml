@@ -1,0 +1,18 @@
+services:
+  - type: web
+    name: going5150
+    env: node
+    buildCommand: npm install && npm run build
+    startCommand: npm start
+    plan: free
+    autoDeploy: false
+    envVars:
+      - key: TRUST_WALLET_ADDRESS
+        value: your-eth-wallet-here
+      - key: VENMO_EMAIL
+        value: exoticaecosystem@gmail.com
+      - key: APP_MODE
+        value: production
+      - key: NEXT_PUBLIC_API_BASE
+        value: https://api.exoticaeco.com
+        
