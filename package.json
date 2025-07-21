@@ -1,14 +1,19 @@
 {
   "name": "exotica-ecosystem",
   "version": "1.0.0",
+  "private": true,
+  "license": "MIT",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start"
   },
   "dependencies": {
-    "react": "^18.0.0",
-    "react-dom": "^18.0.0",
-    "next": "^13.0.0"
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "ethers": "^6.7.0", 
+    "web3": "^1.10.0",
+    "dotenv": "^16.0.3"
   }
 }
